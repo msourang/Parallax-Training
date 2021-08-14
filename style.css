@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+body {
+    margin: 0;
+    background-color: #03012C;
+}
+
+.menu {
+    height: 60px;
+    display: block;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu button {
+    box-sizing: border-box;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: #D6CA98;
+    box-shadow: 0 0 10px 2px #D6CA98;
+    color: #03012C;
+    margin: 30px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 4px 25px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #FBF5F3;
+}
+
+.eye {
+    background: #D6CA98;
+    width: 200px;
+    position: absolute;
+    height:200px;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px #D6CA98;
+}
+
+.eye1 {
+    margin-left: -200px;
+}
+
+.eye2 {
+    margin-left: 25px;
+}
+
+.pupil {
+    position: absolute;
+    background: #03012C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
