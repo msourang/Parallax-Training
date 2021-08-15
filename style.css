@@ -47,6 +47,10 @@ body {
     box-shadow: 0 0 20px 2px #D6CA98;
 }
 
+.eye:hover {
+    background-color: #FBF5F3;
+}
+
 .eye1 {
     margin-left: -200px;
 }
